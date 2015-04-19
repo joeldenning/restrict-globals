@@ -1,0 +1,32 @@
+{
+  "name": "restrict-globals",
+  "main": "restrict-globals.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/joeldenning/restrict-globals",
+  "authors": [
+    "Joel Denning <joeldenning@gmail.com>"
+  ],
+  "description": "Call any function without worrying about if it will access globals that you don't want it to",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "no",
+    "globals",
+    "restrict",
+    "protect",
+    "safe",
+    "global",
+    "scope",
+    "safe"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
