@@ -1,0 +1,35 @@
+{
+  "name": "restrict-globals",
+  "version": "1.0.0",
+  "description": "Call any function without worrying about if it will access globals that you don't want it to",
+  "main": "restrict-globals.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "node uglify.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joeldenning/restrict-globals.git"
+  },
+  "keywords": [
+    "no",
+    "globals",
+    "restrict",
+    "protect",
+    "safe",
+    "global",
+    "scope",
+    "safe"
+  ],
+  "author": "Joel Denning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joeldenning/restrict-globals/issues"
+  },
+  "homepage": "https://github.com/joeldenning/restrict-globals",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4",
+    "uglifyjs": "^2.4.10"
+  }
+}

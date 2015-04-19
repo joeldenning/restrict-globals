@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <script type="text/javascript" src="../restrict-globals.min.js"></script>
+  </head>
+
+  <body>
+    <div id="an-html-id"></div>
+    <script type="text/javascript">
+      var funcThatAccessesDocument = function() {
+        document.getElementById('an-html-id').innerText = 'Oh no! restrictGlobals didn\'t do its job!';
+      };
+
+      try {
+        callWithoutGlobals(['document'], funcThatAccessesDocument);
+      } catch(ex) {
+        document.getElementById('an-html-id').innerHTML = '<h1><strong>Restrict globals is doing its job</strong></h1>';
+      }
+    </script>
+  </body>
+</html>
